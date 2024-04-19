@@ -1,0 +1,19 @@
+{
+  "name": "esbuild-web-components-v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "start": "npx http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@microsoft/fast-element": "^2.0.0-beta.26",
+    "esbuild": "^0.20.2",
+    "typescript": "^5.4.5"
+  }
+}
