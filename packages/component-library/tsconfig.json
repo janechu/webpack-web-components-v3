@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "NodeNext",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "target": "ES6",
+        "module": "NodeNext",
+        "lib": ["ESNext", "DOM"],
+        "declaration": true,
+        "declarationDir": "dist/dts",
+        "outDir": "dist/esm",
+        "importHelpers": false,
+    }
+}

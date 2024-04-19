@@ -1,1 +1,1 @@
-import "./components/my-element.js";
+import "component-library/my-element.js";

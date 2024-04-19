@@ -1,0 +1,31 @@
+{
+  "name": "component-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "exports": {
+    ".": {
+      "types": "./dist/dts/index.d.ts",
+      "default": "./dist/esm/index.js"
+    },
+    "./my-element.js": {
+      "types": "./dist/dts/my-element/define.d.ts",
+      "default": "./dist/esm/my-element/define.js"
+    },
+    "./my-second-element.js": {
+      "types": "./dist/dts/my-second-element/define.d.ts",
+      "default": "./dist/esm/my-second-element/define.js"
+    }
+  },
+  "devDependencies": {
+    "@microsoft/fast-element": "^2.0.0-beta.26",
+    "typescript": "^5.4.5"
+  }
+}
