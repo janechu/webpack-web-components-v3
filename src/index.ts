@@ -1,1 +1,3 @@
-import "component-library/my-element.js";
+(async () => {
+      await import("component-library/my-element.js");
+})();
